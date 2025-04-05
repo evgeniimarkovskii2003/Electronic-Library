@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JdbcBookRepositoryTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2024-09-23T09:58:53" hostname="DESKTOP-CE8CBF7" time="1.162">
+  <properties/>
+  <testcase name="testFindAll()" classname="JdbcBookRepositoryTest" time="1.033"/>
+  <testcase name="testUpdateBook()" classname="JdbcBookRepositoryTest" time="0.034"/>
+  <testcase name="testReadBook()" classname="JdbcBookRepositoryTest" time="0.017"/>
+  <testcase name="testCreateBookWithCompositions()" classname="JdbcBookRepositoryTest" time="0.023"/>
+  <testcase name="testCreateBook()" classname="JdbcBookRepositoryTest" time="0.015"/>
+  <testcase name="testDeleteBook()" classname="JdbcBookRepositoryTest" time="0.014"/>
+  <testcase name="testUpdateBookWithCompositions()" classname="JdbcBookRepositoryTest" time="0.019"/>
+  <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.3)
+
+2024-09-23T12:58:49.636+03:00  INFO 37832 --- [electronic-library] [    Test worker] JdbcBookRepositoryTest                   : Starting JdbcBookRepositoryTest using Java 17.0.8 with PID 37832 (started by Евгений in D:\А\ElectronicLibrary\ElectronicLibrary)
+2024-09-23T12:58:49.640+03:00  INFO 37832 --- [electronic-library] [    Test worker] JdbcBookRepositoryTest                   : No active profile set, falling back to 1 default profile: "default"
+2024-09-23T12:58:51.076+03:00  INFO 37832 --- [electronic-library] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-23T12:58:51.338+03:00  INFO 37832 --- [electronic-library] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@528c8c1
+2024-09-23T12:58:51.341+03:00  INFO 37832 --- [electronic-library] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-23T12:58:52.205+03:00  INFO 37832 --- [electronic-library] [    Test worker] liquibase.changelog                      : Reading from public.databasechangelog
+2024-09-23T12:58:52.266+03:00  INFO 37832 --- [electronic-library] [    Test worker] liquibase.ui                             : Database is up to date, no changesets to execute
+2024-09-23T12:58:52.268+03:00  INFO 37832 --- [electronic-library] [    Test worker] liquibase.changelog                      : Reading from public.databasechangelog
+2024-09-23T12:58:52.279+03:00  INFO 37832 --- [electronic-library] [    Test worker] liquibase.util                           : UPDATE SUMMARY
+2024-09-23T12:58:52.280+03:00  INFO 37832 --- [electronic-library] [    Test worker] liquibase.util                           : Run:                          0
+2024-09-23T12:58:52.280+03:00  INFO 37832 --- [electronic-library] [    Test worker] liquibase.util                           : Previously run:               1
+2024-09-23T12:58:52.280+03:00  INFO 37832 --- [electronic-library] [    Test worker] liquibase.util                           : Filtered out:                 0
+2024-09-23T12:58:52.280+03:00  INFO 37832 --- [electronic-library] [    Test worker] liquibase.util                           : -------------------------------
+2024-09-23T12:58:52.280+03:00  INFO 37832 --- [electronic-library] [    Test worker] liquibase.util                           : Total change sets:            1
+2024-09-23T12:58:52.281+03:00  INFO 37832 --- [electronic-library] [    Test worker] liquibase.util                           : Update summary generated
+2024-09-23T12:58:52.321+03:00  INFO 37832 --- [electronic-library] [    Test worker] liquibase.lockservice                    : Successfully released change log lock
+2024-09-23T12:58:52.323+03:00  INFO 37832 --- [electronic-library] [    Test worker] liquibase.command                        : Command execution complete
+2024-09-23T12:58:53.595+03:00  INFO 37832 --- [electronic-library] [    Test worker] JdbcBookRepositoryTest                   : Started JdbcBookRepositoryTest in 4.304 seconds (process running for 5.974)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

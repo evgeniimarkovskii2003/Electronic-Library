@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class JdbcBookRepositoryTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class JdbcBookRepositoryTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; JdbcBookRepositoryTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">7</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.155s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testCreateBook()</td>
+<td class="success">0.015s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCreateBookWithCompositions()</td>
+<td class="success">0.023s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDeleteBook()</td>
+<td class="success">0.014s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFindAll()</td>
+<td class="success">1.033s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testReadBook()</td>
+<td class="success">0.017s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUpdateBook()</td>
+<td class="success">0.034s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUpdateBookWithCompositions()</td>
+<td class="success">0.019s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.3)
+
+2024-09-23T12:58:49.636+03:00  INFO 37832 --- [electronic-library] [    Test worker] JdbcBookRepositoryTest                   : Starting JdbcBookRepositoryTest using Java 17.0.8 with PID 37832 (started by Евгений in D:\А\ElectronicLibrary\ElectronicLibrary)
+2024-09-23T12:58:49.640+03:00  INFO 37832 --- [electronic-library] [    Test worker] JdbcBookRepositoryTest                   : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2024-09-23T12:58:51.076+03:00  INFO 37832 --- [electronic-library] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-23T12:58:51.338+03:00  INFO 37832 --- [electronic-library] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@528c8c1
+2024-09-23T12:58:51.341+03:00  INFO 37832 --- [electronic-library] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-23T12:58:52.205+03:00  INFO 37832 --- [electronic-library] [    Test worker] liquibase.changelog                      : Reading from public.databasechangelog
+2024-09-23T12:58:52.266+03:00  INFO 37832 --- [electronic-library] [    Test worker] liquibase.ui                             : Database is up to date, no changesets to execute
+2024-09-23T12:58:52.268+03:00  INFO 37832 --- [electronic-library] [    Test worker] liquibase.changelog                      : Reading from public.databasechangelog
+2024-09-23T12:58:52.279+03:00  INFO 37832 --- [electronic-library] [    Test worker] liquibase.util                           : UPDATE SUMMARY
+2024-09-23T12:58:52.280+03:00  INFO 37832 --- [electronic-library] [    Test worker] liquibase.util                           : Run:                          0
+2024-09-23T12:58:52.280+03:00  INFO 37832 --- [electronic-library] [    Test worker] liquibase.util                           : Previously run:               1
+2024-09-23T12:58:52.280+03:00  INFO 37832 --- [electronic-library] [    Test worker] liquibase.util                           : Filtered out:                 0
+2024-09-23T12:58:52.280+03:00  INFO 37832 --- [electronic-library] [    Test worker] liquibase.util                           : -------------------------------
+2024-09-23T12:58:52.280+03:00  INFO 37832 --- [electronic-library] [    Test worker] liquibase.util                           : Total change sets:            1
+2024-09-23T12:58:52.281+03:00  INFO 37832 --- [electronic-library] [    Test worker] liquibase.util                           : Update summary generated
+2024-09-23T12:58:52.321+03:00  INFO 37832 --- [electronic-library] [    Test worker] liquibase.lockservice                    : Successfully released change log lock
+2024-09-23T12:58:52.323+03:00  INFO 37832 --- [electronic-library] [    Test worker] liquibase.command                        : Command execution complete
+2024-09-23T12:58:53.595+03:00  INFO 37832 --- [electronic-library] [    Test worker] JdbcBookRepositoryTest                   : Started JdbcBookRepositoryTest in 4.304 seconds (process running for 5.974)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.8</a> at 23 сент. 2024 г., 12:58:54</p>
+</div>
+</div>
+</body>
+</html>
